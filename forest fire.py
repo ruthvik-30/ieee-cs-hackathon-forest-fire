@@ -31,7 +31,7 @@ fire_location=87
 def send_mail_function():
     email_sender = 'fireforest989@gmail.com'
     email_password = 'uifoemttwoftgyrb'
-    email_receiver = 'shishirhebbar74799@gmail.com'
+    email_receiver = 'blablabla@gmail.com'
     subject = 'EMERGENCY'
     body = """"
     TEST FIRE EMAIL
