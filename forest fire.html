@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <script src="C:\Users\ruthv\Desktop\PES\hackathons\ieee cs\forest fire\mapping.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="data:image/png;base64,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"
+            alt="Team Sigma logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features"><span>Features</span></a></li>
+            <li><a class="nav-link" href="#Map"><span>Map</span></a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+<!--
+      <section id="hero">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+-->
+
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-smoking"></i></div>
+            <div class="desc">
+              <h2><a href="C:\Users\ruthv\Desktop\PES\hackathons\ieee cs\demo1\demo2.py1"><span>CO2 Detection</span></a></h2>
+              <p>
+                Em500 Co2 sensors are deployed across the forest to detect rising levels of carbondioxide and the temperature of the surrounding enivronment is accounted aswell, drones are deployed if fire is detected.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2><a href="#"><span>Fire Detection using Drone</span></a></h2>
+              <p>
+                Image processing using opencv is done to detect fire and as drones fly around the CO2 which raised an alarm.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-smoking" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2><a href="#"><span>Smoke detection using satellite and fire spread direction prediction </span></a></h2>
+              <p>
+                Satellites images of the fire is taken to process to predict the spread of fire.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-route"></i></div>
+            <div class="desc">
+              <h2><a href="#"><span>Animal proximity to fire detection</span></a></h2>
+              <p>
+                Animals distance to fire is found out using opencv to the fire and the forest department is notified to evacuate it.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--
+        <section id="how-it-works">
+          <iframe
+            id="video"
+            height="315"
+            src="sccs"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+      -->
+      <section id="Map">
+        <!--
+          <img src="C:\Users\ruthv\Desktop\PES\hackathons\ieee cs\forest fire\forest image.jpeg" alt="Forest" width="500" height="600">
+        -->
+        <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArL15Z52bi_-Z4qiiu1Vu8NSGkXY1qjvo&callback=initMap&v=weekly">
+    </script>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#"><span>Privacy</span></a></li>
+            <li><a href="#"><span>Terms</span></a></li>
+            <li><a href="#"><span>Contact</span></a></li>
+          </ul>
+          <span>Copyright 2022, Team Sigma</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
